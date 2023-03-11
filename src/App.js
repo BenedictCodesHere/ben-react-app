@@ -6,6 +6,7 @@ import ProjectGallery from './pages/ProjectGallery';
 import Project from './components/Project';
 import Header from "./components/Header";
 import projects from './projects.json';
+import Home from './pages/Home';
 function App() {
  
   
@@ -19,8 +20,6 @@ const ProjectsArray = projects.map((project) => (
   repo={project.repo}
   deployed={project.deployed}
   />
-  
- 
   ));
 
 
@@ -34,10 +33,15 @@ const ProjectsArray = projects.map((project) => (
         <div className="row">
           <Header />
           <Routes>
-             <Route path="/"/>
+             <Route path="/" element={<Home />}/>
              <Route path="/contact" element={<Contact />} />
              <Route path="/projects" element={<ProjectGallery />} />
              <Route path="/projects/french-tutoring-website" element={ProjectsArray[0]} />
+             <Route path="/projects/code-quiz" element={ProjectsArray[1]} />
+             <Route path="/projects/weather-dashboard" element={ProjectsArray[2]} />
+             <Route path="/projects/daily-planner" element={ProjectsArray[3]} />
+             <Route path="/projects/password-generator" element={ProjectsArray[4]} />
+             <Route path="/projects/README-generator" element={ProjectsArray[5]} />
           </Routes>
           </div>
       </div>
