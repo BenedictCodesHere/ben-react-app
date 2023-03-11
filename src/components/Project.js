@@ -36,8 +36,8 @@ console.log(ProjectImage);
 return (<>
     <h2 className="project-title">{props.title}</h2>
           <div className="card h-25 w-25">
-            <div className="img-container">
-              <img  alt={props.alt} src={ProjectImage}></img>
+            <div className="img-container" style={{height:"inherit", width: "inherit"}}>
+              <img alt={props.alt} src={ProjectImage}></img>
             </div>
             <div className="card-body">
             <p>Link to deployed version:<Link to={props.deployed}>{props.deployed}</Link></p>
