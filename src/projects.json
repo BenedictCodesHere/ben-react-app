@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "title": "French Tutoring Website",
+      "repo":
+        "https://github.com/BenedictCodesHere/french-tutoring-website", 
+        "image":"./assets/images/french-tutoring-website",
+        "alt": "Image of deployed application for French tutoring website.",
+        "deployed": "https://beazach.github.io/french-tutoring-website/"
+    },
+    {
+      "id": 2,
+      "title": "Code Quiz",
+      "repo":
+        "https://github.com/BenedictCodesHere/Code-Quiz",
+        "image":"./assets/images/code-quiz",
+        "alt": "Image of deployed application for Code Quiz.",
+        "deployed": "https://benedictcodeshere.github.io/Code-Quiz/"
+    },
+    {
+      "id": 3,
+      "title":"Weather Dashboard",
+      "repo":
+        "https://github.com/BenedictCodesHere/Weather-Dashboard",
+        "image":"./assets/images/weather-dashboard",
+        "alt": "Image of deployed application for Weather Dashboard.",
+        "deployed": "https://benedictcodeshere.github.io/Weather-Dashboard/"
+    },
+    {
+        "id": 4,
+        "title": "Daily Planner",
+        "repo":
+          "https://github.com/BenedictCodesHere/Daily-Planner",
+          "image":"./assets/images/daily-planner",
+          "alt": "Image of deployed application for Daily Planner.",
+          "deployed": "https://benedictcodeshere.github.io/Daily-Planner/"
+      },
+      {
+        "id": 5,
+        "title": "Password Generator",
+        "repo":
+          "https://github.com/BenedictCodesHere/Password-Generator",
+          "image":"./assets/images/password-generator",
+          "alt": "Image of deployed application for Password Generator.",
+          "deployed": "https://benedictcodeshere.github.io/Password-Generator/"
+      },
+      {
+        "id": 6,
+        "title": "README Generator",
+        "repo":
+          "https://github.com/BenedictCodesHere/README-generator",
+          "image":"./assets/images/README-generator",
+          "alt": "Image from walkthrough video for README Generator.",
+          "deployed": "https://www.youtube.com/watch?v=g5EztzwpbKg"
+       
+      }
+  ]
