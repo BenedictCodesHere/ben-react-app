@@ -10,6 +10,18 @@ import ProjectNavbar from "./ProjectNavbar";
 
 const ImageArray = [French, CodeQuiz, Weather, DailyPlanner, PasswordGen, READMEGen]
 function Project(props) {
+
+
+  function addLineBreaks(str){
+    let evaluatedString = str;
+    console.log(str);
+    if(evaluatedString.length > 60){
+      evaluatedString.slice(0)
+    }
+  }
+
+  const evaluatedDescription = addLineBreaks(props.description);
+
 let ProjectImage;
 switch(props.id){
     case 1:
@@ -42,7 +54,7 @@ return (<>
             <div className="img-container d-flex justify-content-center" style={{maxHeight: "35vh", width: "inherit"}}>
               <img style={{maxHeight:"inherit", height:"inherit", width:"inherit", maxWidth: "inherit"}} alt={props.alt} src={ProjectImage}></img>
             </div>
-            <div className="p-4" style={{backgroundColor: "rgb(186, 183, 186)"}}></div>
+            <div className="p-4 text-center" style={{backgroundColor: "rgb(186, 183, 186)"}}><p>{props.description}</p></div>
             <div className="card-body mx-4 p-6 mt-4 text-center">
               
             <p>Link to deployed version:

@@ -21,6 +21,7 @@ const ProjectsArray = projects.map((project) => (
   alt={project.alt}
   repo={project.repo}
   deployed={project.deployed}
+  description={project.description}
   />
   ));
 

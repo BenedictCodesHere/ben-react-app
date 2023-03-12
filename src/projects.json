@@ -6,7 +6,8 @@
         "https://github.com/BenedictCodesHere/french-tutoring-website", 
         "image":"../assets/images/french-tutoring-website",
         "alt": "Image of deployed application for French tutoring website.",
-        "deployed": "https://beazach.github.io/french-tutoring-website/"
+        "deployed": "https://beazach.github.io/french-tutoring-website/",
+        "description": "This project was a collaboration, where I took the lead on developing the API calls and the JavaScript files. I also demonstrated the use of modular code by creating a separate JavaScript file which essentially functioned as a router, redirecting the user to the correct selected theme page and storing this saved theme data on the client side, using localStorage."
     },
     {
       "id": 2,
@@ -15,7 +16,8 @@
         "https://github.com/BenedictCodesHere/Code-Quiz",
         "image":"../assets/images/code-quiz",
         "alt": "Image of deployed application for Code Quiz.",
-        "deployed": "https://benedictcodeshere.github.io/Code-Quiz/"
+        "deployed": "https://benedictcodeshere.github.io/Code-Quiz/",
+        "description": "This project focused on creating an interactive, educational game where the user's button selections affect the user's score, and also incorrect answers give time penalties. A list of highscores was tracked on a separate HTML page, populating dynamically using scores stored on the client side, in localStorage."
     },
     {
       "id": 3,
@@ -24,7 +26,8 @@
         "https://github.com/BenedictCodesHere/Weather-Dashboard",
         "image":"../assets/images/weather-dashboard",
         "alt": "Image of deployed application for Weather Dashboard.",
-        "deployed": "https://benedictcodeshere.github.io/Weather-Dashboard/"
+        "deployed": "https://benedictcodeshere.github.io/Weather-Dashboard/",
+        "description": "This project focused on API calls, allowing the user to search for the five-day weather forecast using the OpenWeatherMap API. The saved searches of the relevant cities were also populated to the page in the form of buttons, which would enable the user to click on a saved city to once again search for the weather (which would be an up-to-date forecast, as the API call would be a fresh one). I also utilised my CSS skills to create custom animated gradients, reflecting the changing dark-to-light circadian patterns of a day."
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
           "https://github.com/BenedictCodesHere/Daily-Planner",
           "image":"../assets/images/daily-planner",
           "alt": "Image of deployed application for Daily Planner.",
-          "deployed": "https://benedictcodeshere.github.io/Daily-Planner/"
+          "deployed": "https://benedictcodeshere.github.io/Daily-Planner/",
+          "description": "This project was a collaboration"
       },
       {
         "id": 5,
@@ -42,7 +46,8 @@
           "https://github.com/BenedictCodesHere/Password-Generator",
           "image":"../assets/images/password-generator",
           "alt": "Image of deployed application for Password Generator.",
-          "deployed": "https://benedictcodeshere.github.io/Password-Generator/"
+          "deployed": "https://benedictcodeshere.github.io/Password-Generator/",
+          "description": "This project was a collaboration"
       },
       {
         "id": 6,
@@ -51,7 +56,8 @@
           "https://github.com/BenedictCodesHere/README-generator",
           "image":"../assets/images/README-generator",
           "alt": "Image from walkthrough video for README Generator.",
-          "deployed": "https://www.youtube.com/watch?v=g5EztzwpbKg"
+          "deployed": "https://www.youtube.com/watch?v=g5EztzwpbKg",
+          "description": "This project was a collaboration"
        
       }
   ]
