@@ -7,7 +7,7 @@
         "image":"../assets/images/french-tutoring-website",
         "alt": "Image of deployed application for French tutoring website.",
         "deployed": "https://beazach.github.io/french-tutoring-website/",
-        "description": "This project was a collaboration, where I took the lead on developing the API calls and the JavaScript files. I also demonstrated the use of modular code by creating a separate JavaScript file which essentially functioned as a router, redirecting the user to the correct selected theme page and storing this saved theme data on the client side, using localStorage."
+        "description": "Developed as part of a 4-person team, I took the lead on developing the API calls and the JavaScript files. I also demonstrated the use of modular code by creating a separate JavaScript file which essentially functioned as a router, redirecting the user to the correct selected theme page and storing this saved theme data on the client side, using localStorage."
     },
     {
       "id": 2,
@@ -17,7 +17,7 @@
         "image":"../assets/images/code-quiz",
         "alt": "Image of deployed application for Code Quiz.",
         "deployed": "https://benedictcodeshere.github.io/Code-Quiz/",
-        "description": "This project focused on creating an interactive, educational game where the user's button selections affect the user's score, and also incorrect answers give time penalties. A list of highscores was tracked on a separate HTML page, populating dynamically using scores stored on the client side, in localStorage."
+        "description": "An interactive, educational game where the user's button selections affect the user's score, and also incorrect answers give time penalties. A list of highscores was tracked on a separate HTML page, populating dynamically using scores stored on the client side, in localStorage."
     },
     {
       "id": 3,
@@ -27,7 +27,7 @@
         "image":"../assets/images/weather-dashboard",
         "alt": "Image of deployed application for Weather Dashboard.",
         "deployed": "https://benedictcodeshere.github.io/Weather-Dashboard/",
-        "description": "This project focused on API calls, allowing the user to search for the five-day weather forecast using the OpenWeatherMap API. The saved searches of the relevant cities were also populated to the page in the form of buttons, which would enable the user to click on a saved city to once again search for the weather (which would be an up-to-date forecast, as the API call would be a fresh one). I also utilised my CSS skills to create custom animated gradients, reflecting the changing dark-to-light circadian patterns of a day."
+        "description": "Focused on API calls, this allows the user to search for the five-day weather forecast using the OpenWeatherMap API. The saved searches of the relevant cities were also populated to the page in the form of buttons, which would enable the user to click on a saved city to once again search for the weather (which would be an up-to-date forecast, as the API call would be a fresh one). I also utilised my CSS skills to create custom animated gradients, reflecting the changing dark-to-light circadian patterns of a day."
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
           "image":"../assets/images/daily-planner",
           "alt": "Image of deployed application for Daily Planner.",
           "deployed": "https://benedictcodeshere.github.io/Daily-Planner/",
-          "description": "This project was a collaboration"
+          "description": "A daily planner application, which allows the user to input appointments to a working day diary. This was mainly developed using jQuery DOM manipulation, and with localStorage to keep the appointments saved on the client side. The past hours are displayed in red, the future hours in green. The user can input text in the textareas and save the appointments to their localStorage using the save button to the right hand side of the textarea."
       },
       {
         "id": 5,
@@ -47,7 +47,7 @@
           "image":"../assets/images/password-generator",
           "alt": "Image of deployed application for Password Generator.",
           "deployed": "https://benedictcodeshere.github.io/Password-Generator/",
-          "description": "This project was a collaboration"
+          "description": "Generates a random password for the user, based on the user's selection from 4 inputs: Uppercase, lowercase, numeric, and special characters. The user can refresh the password to generate a new one by simply clicking again on the 'generate password' button. This was done using vanilla JavaScript."
       },
       {
         "id": 6,
@@ -57,7 +57,7 @@
           "image":"../assets/images/README-generator",
           "alt": "Image from walkthrough video for README Generator.",
           "deployed": "https://www.youtube.com/watch?v=g5EztzwpbKg",
-          "description": "This project was a collaboration"
+          "description": "Using Node.js and Inquirer.js, this is a command-line application, with a video walkthrough. It allows the user to build their own README quickly according to a set of prompts. The command line prompts the user to input text for the different sections of a README file. The file is then written to a README, which the user can use in their project."
        
       }
   ]
