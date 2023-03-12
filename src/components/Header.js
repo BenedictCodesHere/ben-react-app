@@ -1,24 +1,22 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
+import './Header.css'
 
 
 const Header = () => {
   return (
-    <header className="header">
-      <div className='container'>
-        <div className='row'>
-          <div className='col-sm-2 col-md-2 col-lg-2'>
-      <NavLink to="/">Home</NavLink>
-      </div>
-      <div className='col-sm-2 col-md-2 col-lg-2'>
-      <NavLink to="contact">Contact</NavLink>
-      </div>
-      <div className='col-sm-2 col-md-2 col-lg-2'>
-      <NavLink to="projects">Project Gallery</NavLink>
-      </div>
-      </div>
-      </div>
+    <header className="header row">
+      
+          
+      <NavLink className="btn btn-primary" to="/ben-react-app">Home</NavLink>
+      
+      
+      <NavLink className="btn btn-success" to="contact">Contact</NavLink>
+      
+      
+      <NavLink  className="btn btn-danger" to="projects">Project Gallery</NavLink>
+      
+      
     </header>
   );
 };

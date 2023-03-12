@@ -6,6 +6,7 @@ import Weather from '../assets/images/weather-dashboard.png';
 import DailyPlanner from '../assets/images/daily-planner.png';
 import PasswordGen from '../assets/images/password-generator.png';
 import READMEGen from '../assets/images/README-generator.png';
+import ProjectNavbar from "./ProjectNavbar";
 
 const ImageArray = [French, CodeQuiz, Weather, DailyPlanner, PasswordGen, READMEGen]
 function Project(props) {
@@ -34,18 +35,29 @@ switch(props.id){
 console.log(ProjectImage);
 
 return (<>
-    <h2 className="project-title">{props.title}</h2>
-          <div className="card h-25 w-25">
-            <div className="img-container" style={{height:"inherit", width: "inherit"}}>
-              <img alt={props.alt} src={ProjectImage}></img>
+<ProjectNavbar />
+<div className="container">
+    <h2 className="project-title text-center">{props.title}</h2>
+          <div className="card">
+            <div className="img-container d-flex justify-content-center" style={{maxHeight: "35vh", width: "inherit"}}>
+              <img style={{maxHeight:"inherit", height:"inherit", width:"inherit", maxWidth: "inherit"}} alt={props.alt} src={ProjectImage}></img>
             </div>
-            <div className="card-body">
-            <p>Link to deployed version:<Link to={props.deployed}>{props.deployed}</Link></p>
-           
-            <p>Link to repository: <Link to={props.repo}>{props.repo}</Link></p>
+            <div className="p-4" style={{backgroundColor: "rgb(186, 183, 186)"}}></div>
+            <div className="card-body mx-4 p-6 mt-4 text-center">
+              
+            <p>Link to deployed version:
+              <br></br>
+              <Link className="link" to={props.deployed}>{props.deployed}</Link></p>
+             
+            <p>Link to repository:
+            <br></br>
+             <Link className="link" to={props.repo}>{props.repo}</Link></p>
             </div>
             </div>
-            <Link to="/projects">Back</Link>
+            <div className="row d-flex justify-content-center">
+            <Link className="btn btn-primary" to="/projects">Back</Link>
+            </div>
+            </div>
     </>
 )
 }
