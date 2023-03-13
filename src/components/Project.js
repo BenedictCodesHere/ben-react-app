@@ -8,19 +8,21 @@ import PasswordGen from '../assets/images/password-generator.png';
 import READMEGen from '../assets/images/README-generator.png';
 import ProjectNavbar from "./ProjectNavbar";
 
-const ImageArray = [French, CodeQuiz, Weather, DailyPlanner, PasswordGen, READMEGen]
+const ImageArray = [French, CodeQuiz, Weather, DailyPlanner, PasswordGen, READMEGen];
+// const breakpoint = /\./;
 function Project(props) {
+//   let lineBreak = <br></br>;
+// let descriptionCopy = [...props.description];
+// let newCopy = descriptionCopy.join('');
+// let anotherCopy = newCopy.split(breakpoint);
+// let totality = anotherCopy;
 
 
-  function addLineBreaks(str){
-    let evaluatedString = str;
-    console.log(str);
-    if(evaluatedString.length > 60){
-      evaluatedString.slice(0)
-    }
-  }
 
-  const evaluatedDescription = addLineBreaks(props.description);
+// let newTotal = totality.splice(1, 0, lineBreak);
+// let rerere = newTotal.join('');
+
+// console.log(rerere);
 
 let ProjectImage;
 switch(props.id){
@@ -57,7 +59,7 @@ return (<>
             <div className="p-4 text-center" style={{backgroundColor: "rgb(186, 183, 186)"}}><p>{props.description}</p></div>
             <div className="card-body mx-4 p-6 mt-4 text-center">
               
-            <p>Link to deployed version:
+            <p className="swap">Link to deployed version:
               <br></br>
               <Link className="link" to={props.deployed}>{props.deployed}</Link></p>
              

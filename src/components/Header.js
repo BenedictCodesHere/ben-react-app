@@ -5,7 +5,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <header className="header row">
+    <header className="header mt-5 row">
       
           
       <NavLink className="btn btn-primary" to="/ben-react-app">Home</NavLink>
