@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ben-react-app/static/css/main.7d8d2bcb.css",
-    "main.js": "/ben-react-app/static/js/main.4b7b0724.js",
+    "main.js": "/ben-react-app/static/js/main.d67bc04c.js",
     "static/js/787.650abb85.chunk.js": "/ben-react-app/static/js/787.650abb85.chunk.js",
     "static/media/README-generator.png": "/ben-react-app/static/media/README-generator.3857ab227c23757a5bc0.png",
     "static/media/weather-dashboard.png": "/ben-react-app/static/media/weather-dashboard.ef364c5e66781bdf8ea4.png",
@@ -14,11 +14,11 @@
     "static/media/code-quiz.png": "/ben-react-app/static/media/code-quiz.960666682702ca89474a.png",
     "index.html": "/ben-react-app/index.html",
     "main.7d8d2bcb.css.map": "/ben-react-app/static/css/main.7d8d2bcb.css.map",
-    "main.4b7b0724.js.map": "/ben-react-app/static/js/main.4b7b0724.js.map",
+    "main.d67bc04c.js.map": "/ben-react-app/static/js/main.d67bc04c.js.map",
     "787.650abb85.chunk.js.map": "/ben-react-app/static/js/787.650abb85.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d8d2bcb.css",
-    "static/js/main.4b7b0724.js"
+    "static/js/main.d67bc04c.js"
   ]
 }
