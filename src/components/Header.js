@@ -8,13 +8,13 @@ const Header = () => {
     <header className="header mt-5 row">
       
           
-      <NavLink className="btn btn-primary" to="/ben-react-app">Home</NavLink>
+      <NavLink className="btn" to="/ben-react-app">Home</NavLink>
       
       
-      <NavLink className="btn btn-success" to="contact">Contact</NavLink>
+      <NavLink className="btn" to="contact">Contact</NavLink>
       
       
-      <NavLink  className="btn btn-danger" to="projects">Project Gallery</NavLink>
+      <NavLink  className="btn" to="projects">Project Gallery</NavLink>
       
       
     </header>

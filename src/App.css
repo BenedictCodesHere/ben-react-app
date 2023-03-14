@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(186, 183, 186) !important;
+  background: radial-gradient(#c9c0c0, #d1ebeb)!important;
 }
 
 .btn {
@@ -9,4 +9,12 @@ body {
 
 p {
   font-size: 1.2em;
+  font-weight: 400;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.email {
+  color: blue;
+}
+
+

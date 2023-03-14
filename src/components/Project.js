@@ -7,7 +7,7 @@ import DailyPlanner from '../assets/images/daily-planner.png';
 import PasswordGen from '../assets/images/password-generator.png';
 import READMEGen from '../assets/images/README-generator.png';
 import ProjectNavbar from "./ProjectNavbar";
-
+import './Project.css';
 const ImageArray = [French, CodeQuiz, Weather, DailyPlanner, PasswordGen, READMEGen];
 
 function Project(props) {
@@ -41,20 +41,20 @@ return (<>
 <ProjectNavbar />
 <div className="container">
     <h2 className="project-title text-center">{props.title}</h2>
-          <div className="card">
+          <div className="card" style={{backgroundColor:"inherit"}}>
             <div className="img-container d-flex justify-content-center" style={{maxHeight: "35vh", width: "inherit"}}>
               <img style={{maxHeight:"inherit", height:"inherit", width:"inherit", maxWidth: "inherit"}} alt={props.alt} src={ProjectImage}></img>
             </div>
-            <div className="p-4 text-center" style={{backgroundColor: "rgb(186, 183, 186)"}}><p>{props.description}</p></div>
-            <div className="card-body mx-4 p-6 mt-4 text-center">
+            <div className="p-4 text-center" ><p>{props.description}</p></div>
+            <div className="card-body mx-4 p-6 mt-4 row text-center">
               
-            <p className="swap">Link to deployed version:
-              <br></br>
-              <Link className="link" to={props.deployed}>{props.deployed}</Link></p>
+            <p className="swap">Link to deployed version:</p>
+          
+              <Link className="btn btn-dark" to={props.deployed}>{props.deployed}</Link>
              
-            <p>Link to repository:
-            <br></br>
-             <Link className="link" to={props.repo}>{props.repo}</Link></p>
+            <p>Link to repository:</p>
+           
+             <Link className="btn btn-dark" to={props.repo}>{props.repo}</Link>
             </div>
             </div>
             <div className="row d-flex justify-content-center">
