@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ContactForm from "../components/ContactForm";
 
 function Contact() {
     return (
@@ -11,7 +12,9 @@ function Contact() {
         <Link className="btn btn-contact" to="https://github.com/BenedictCodesHere/"><i class="bi bi-github"></i></Link>
         <Link className="btn btn-contact" to="https://www.linkedin.com/in/benedict-mcelroy-005256230"><i class="bi bi-linkedin"></i></Link>
     </div>
+    <ContactForm/>
   </div></>
+  
     )
 
 }

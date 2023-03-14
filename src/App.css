@@ -13,7 +13,7 @@ p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.email {
+.email, label, legend {
   color: blue;
 }
 
