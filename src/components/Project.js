@@ -9,20 +9,9 @@ import READMEGen from '../assets/images/README-generator.png';
 import ProjectNavbar from "./ProjectNavbar";
 
 const ImageArray = [French, CodeQuiz, Weather, DailyPlanner, PasswordGen, READMEGen];
-// const breakpoint = /\./;
+
 function Project(props) {
-//   let lineBreak = <br></br>;
-// let descriptionCopy = [...props.description];
-// let newCopy = descriptionCopy.join('');
-// let anotherCopy = newCopy.split(breakpoint);
-// let totality = anotherCopy;
 
-
-
-// let newTotal = totality.splice(1, 0, lineBreak);
-// let rerere = newTotal.join('');
-
-// console.log(rerere);
 
 let ProjectImage;
 switch(props.id){

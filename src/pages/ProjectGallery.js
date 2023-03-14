@@ -2,6 +2,7 @@ import React from "react";
 import Project from '../components/Project';
 import projects from '../projects.json';
 import ProjectNavbar from "../components/ProjectNavbar";
+import { Routes, Route } from "react-router-dom";
 function ProjectGallery() {
 
     return (<>
@@ -13,7 +14,6 @@ function ProjectGallery() {
       
     
       <ProjectNavbar></ProjectNavbar>
-      
     </div>
   </>
 );
