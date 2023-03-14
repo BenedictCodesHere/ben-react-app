@@ -8,6 +8,8 @@ A Portfolio page designed in React, which showcases my latest projects in a proj
 ## Table of Contents
   [Screenshot](#Screenshot)
 
+  [Deployed](#Deployed)
+
   [Installation](#installation)
 
   [Usage](#usage)
@@ -22,6 +24,10 @@ A Portfolio page designed in React, which showcases my latest projects in a proj
  
 ## Screenshot
 ![Screenshot](./src/assets/images/screenshot.png)
+
+## Deployed
+[Deployed Page](https://benedictcodeshere.github.io/ben-react-app/)
+
 
 ## Installation
 
