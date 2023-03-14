@@ -60,7 +60,7 @@ return (<>
             
             </div>
             
-            <Link className="btn btn-primary arrow" to="/projects"><i class="bi bi-arrow-left"></i></Link>
+            <Link className="btn btn-primary arrow" to="/projects"><i className="bi bi-arrow-left"></i></Link>
             
             </div>
     </>

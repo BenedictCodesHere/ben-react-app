@@ -11,6 +11,7 @@ p {
   font-size: 1.2em;
   font-weight: 400;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  overflow-wrap: break-word;
 }
 
 .email, label, legend {
@@ -42,3 +43,11 @@ p {
       img {
         aspect-ratio: 16/9;
       }
+
+
+      button, form > input, textarea {
+        border-radius: 7px !important;
+        border: none;
+      }
+
+    
