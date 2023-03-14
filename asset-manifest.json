@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ben-react-app/static/css/main.c36facf4.css",
+    "main.js": "/ben-react-app/static/js/main.54bf076d.js",
+    "static/js/787.650abb85.chunk.js": "/ben-react-app/static/js/787.650abb85.chunk.js",
+    "static/media/README-generator.png": "/ben-react-app/static/media/README-generator.3857ab227c23757a5bc0.png",
+    "static/media/weather-dashboard.png": "/ben-react-app/static/media/weather-dashboard.ef364c5e66781bdf8ea4.png",
+    "static/media/whos-this-long-haired-beauty.png": "/ben-react-app/static/media/whos-this-long-haired-beauty.4ad910964a9f4df3c476.png",
+    "static/media/bootstrap-icons.woff?": "/ben-react-app/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/french-tutoring-website.png": "/ben-react-app/static/media/french-tutoring-website.00cc508d7368a94fde91.png",
+    "static/media/bootstrap-icons.woff2?": "/ben-react-app/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/daily-planner.png": "/ben-react-app/static/media/daily-planner.4abb3785f36e3d8be53b.png",
+    "static/media/password-generator.png": "/ben-react-app/static/media/password-generator.ffeb900ebc8828fd1481.png",
+    "static/media/code-quiz.png": "/ben-react-app/static/media/code-quiz.960666682702ca89474a.png",
+    "index.html": "/ben-react-app/index.html",
+    "main.c36facf4.css.map": "/ben-react-app/static/css/main.c36facf4.css.map",
+    "main.54bf076d.js.map": "/ben-react-app/static/js/main.54bf076d.js.map",
+    "787.650abb85.chunk.js.map": "/ben-react-app/static/js/787.650abb85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c36facf4.css",
+    "static/js/main.54bf076d.js"
+  ]
+}
