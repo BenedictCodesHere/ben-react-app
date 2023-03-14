@@ -39,14 +39,14 @@ const ProjectsArray = projects.map((project) => (
                     <Header />
                         <Routes>
                           <Route path="/ben-react-app" element={<Home />}/>
-                          <Route path="/contact" element={<Contact />} />
-                          <Route path="/projects" element={<ProjectGallery />} />
-                          <Route path="/projects/french-tutoring-website" element={ProjectsArray[0]} />
-                          <Route path="/projects/code-quiz" element={ProjectsArray[1]} />
-                          <Route path="/projects/weather-dashboard" element={ProjectsArray[2]} />
-                          <Route path="/projects/daily-planner" element={ProjectsArray[3]} />
-                          <Route path="/projects/password-generator" element={ProjectsArray[4]} />
-                          <Route path="/projects/README-generator" element={ProjectsArray[5]} />
+                          <Route path="/ben-react-app/contact" element={<Contact />} />
+                          <Route path="/ben-react-app/projects" element={<ProjectGallery />} />
+                          <Route path="/ben-react-app/projects/french-tutoring-website" element={ProjectsArray[0]} />
+                          <Route path="/ben-react-app/projects/code-quiz" element={ProjectsArray[1]} />
+                          <Route path="/ben-react-app/projects/weather-dashboard" element={ProjectsArray[2]} />
+                          <Route path="/ben-react-app/projects/daily-planner" element={ProjectsArray[3]} />
+                          <Route path="/ben-react-app/projects/password-generator" element={ProjectsArray[4]} />
+                          <Route path="/ben-react-app/projects/README-generator" element={ProjectsArray[5]} />
                         </Routes>
                         
                   </Router>
