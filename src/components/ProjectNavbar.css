@@ -2,12 +2,15 @@
     margin-top: 40px;
 }
 
-.btn {
+.btn-project {
 border: 1px solid rgb(163, 161, 161) !important;
-
+background-color: rgba(216, 144, 12, 0.733) !important;
+color:aliceblue !important;
+opacity: 0.8;
 }
 
 .btn:hover, .btn:active {
     color: white !important;
     border: 1px solid rgb(248, 245, 245) !important;
+    opacity: 1;
     }
