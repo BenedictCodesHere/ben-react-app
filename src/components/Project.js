@@ -44,7 +44,7 @@ return (<>
     <h2 className="project-title text-center">{props.title}</h2>
           <div className="card" style={{backgroundColor:"inherit"}}>
             <div className="img-container d-flex justify-content-center" style={{maxHeight: "35vh", width: "inherit"}}>
-              <img style={{maxHeight:"inherit", height:"inherit", width:"inherit", maxWidth: "inherit"}} alt={props.alt} src={ProjectImage}></img>
+              <img style={{maxHeight:"inherit", height:"inherit", width:"inherit", maxWidth: "100vw"}} alt={props.alt} src={ProjectImage}></img>
             </div>
             <div className="card-body mx-4 p-6 mt-4 row text-center">
               
