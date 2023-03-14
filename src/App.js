@@ -30,7 +30,7 @@ const ProjectsArray = projects.map((project) => (
 
 
 
-  return (
+  return (<>
     <div className='container'>
         <div className="row">
           <div className='col-sm-2 col-md-4 col-lg-4'></div>
@@ -48,12 +48,14 @@ const ProjectsArray = projects.map((project) => (
                           <Route path="/projects/password-generator" element={ProjectsArray[4]} />
                           <Route path="/projects/README-generator" element={ProjectsArray[5]} />
                         </Routes>
+                        
                   </Router>
                 </div>
           <div className='col-sm-2 col-md-4 col-lg-4'></div>
           </div>
       </div>
       
+      </>
   );
 }
 
