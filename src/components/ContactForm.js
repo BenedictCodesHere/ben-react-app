@@ -16,11 +16,10 @@ function ContactForm(){
       <input type="name" className="form-control" id="inputName3" placeholder="Name" />
     </div>
   </div>
-  <fieldset className="form-group">
-    <div className="row">
-      <legend className="col-form-label col-sm-12 text-center pt-0 fw-bold">Who are you</legend>
-      <div className="col-sm-2"></div>
-      <div className="col-sm-12">
+  <fieldset className="form-group pb-3">
+    <div className="row d-flex justify-content-center text-center">
+      <legend className="col-form-label col-sm-12 pt-4 fw-bold">Who are you</legend>
+      <div className="col-sm-4">
         <div className="form-check">
           <input className="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" />
           <label className="form-check-label" for="gridRadios1">
@@ -43,9 +42,9 @@ function ContactForm(){
     </div>
   </fieldset>
   
-  <div className="form-group row">
-    <div className="col-sm-2"></div>
-    <div className="col-sm-6">
+  <div className="form-group row d-flex justify-content-center">
+    
+    <div className="col-sm-3">
       <button type="submit" className="btn btn-contact">Submit</button>
     </div>
   </div>
