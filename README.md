@@ -1,11 +1,13 @@
 # Ben React App
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 A Portfolio page designed in React, which showcases my latest projects in a project gallery.
 
 ## Table of Contents
+  [Screenshot](#Screenshot)
+
   [Installation](#installation)
 
   [Usage](#usage)
@@ -18,6 +20,8 @@ A Portfolio page designed in React, which showcases my latest projects in a proj
   
   [Questions](#questions)
  
+## Screenshot
+![Screenshot](./src/assets/images/screenshot.png)
 
 ## Installation
 
@@ -42,7 +46,7 @@ N/A
 ## Questions
 If you have any questions about this application, please find a link to my Github profile and my email below:
 
-![BenedictCodesHere](https://github.com/BenedictCodesHere)
+[BenedictCodesHere](https://github.com/BenedictCodesHere)
 
 codingwithbenedict99@gmail.com
 
