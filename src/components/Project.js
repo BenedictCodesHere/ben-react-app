@@ -8,6 +8,10 @@ import PasswordGen from '../assets/images/password-generator.png';
 import READMEGen from '../assets/images/README-generator.png';
 import ProjectNavbar from "./ProjectNavbar";
 import './Project.css';
+import ProjectImagePlaceholder from "./ProjectImagePlaceholder";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import PlaceholderSVG from '../assets/images/placeholder.svg';
+
 const ImageArray = [French, CodeQuiz, Weather, DailyPlanner, PasswordGen, READMEGen];
 
 function Project(props) {
@@ -44,7 +48,7 @@ return (<>
     <h2 className="project-title text-center">{props.title}</h2>
           <div className="card" style={{backgroundColor:"inherit"}}>
             <div className="img-container d-flex justify-content-center" style={{maxHeight: "35vh", width: "inherit"}}>
-              <img style={{maxHeight:"inherit", height:"inherit", width:"inherit", maxWidth: "100vw"}} alt={props.alt} src={ProjectImage}></img>
+              <LazyLoadImage PlaceholderSrc={'../assets/images/placeholder.svg'} style={{maxHeight:"inherit", height:"inherit", width:"inherit", maxWidth: "100vw"}} alt={props.alt} src={ProjectImage}></LazyLoadImage>
             </div>
             <div className="card-body mx-4 p-6 mt-4 row text-center">
               
@@ -60,7 +64,7 @@ return (<>
             
             </div>
             
-            <Link className="btn btn-primary arrow" to="/projects"><i className="bi bi-arrow-left"></i></Link>
+            <Link className="btn btn-primary arrow" to="/ben-react-app/projects"><i className="bi bi-arrow-left"></i></Link>
             
             </div>
     </>

@@ -3,11 +3,11 @@
       "id": 1,
       "title": "French Tutoring Website",
       "repo":
-        "https://github.com/BenedictCodesHere/french-tutoring-website", 
+        "https://github.com/BenedictCodesHere/french-tutoring-website-react", 
         "image":"../assets/images/french-tutoring-website",
         "alt": "Image of deployed application for French tutoring website.",
-        "deployed": "https://beazach.github.io/french-tutoring-website/",
-        "description": "Developed as part of a 4-person team, I took the lead on developing the API calls and the JavaScript files. I also demonstrated the use of modular code by creating a separate JavaScript file which essentially functioned as a router, redirecting the user to the correct selected theme page and storing this saved theme data on the client side, using localStorage."
+        "deployed": "https://myfrenchtutor.netlify.app/",
+        "description": "Developed as part of a 5-person team, this project was designed using React, Node, Bootstrap and custom CSS. I took the lead on developing the UnsplashComp component, which allows the user to interact with a set of named buttons, to call the Unsplash API with different search queries. I had to make use of the useEffect and useState react hooks in order to effectively manage the flow of data within this component. I also split the data into a separate JSON file, as part of separating concerns appropriately. I configured the Vocalvideo widget for use in React, which required significant amendments to the documented way to embed the code for simple HTML, and also integrated Google Analytics into the format for React."
     },
     {
       "id": 2,
