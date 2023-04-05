@@ -45,7 +45,7 @@ return (<>
 
 <ProjectNavbar />
 <div className="container">
-    <h2 className="project-title text-center">{props.title}</h2>
+    
           <div className="card" style={{backgroundColor:"inherit"}}>
             <div className="img-container d-flex justify-content-center" style={{maxHeight: "35vh", width: "inherit"}}>
               <LazyLoadImage PlaceholderSrc={'../assets/images/placeholder.svg'} style={{maxHeight:"inherit", height:"inherit", width:"inherit", maxWidth: "100vw"}} alt={props.alt} src={ProjectImage}></LazyLoadImage>
