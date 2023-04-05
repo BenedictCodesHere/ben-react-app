@@ -4,7 +4,7 @@ function ProjectImg({ProjectImage}){
 
     
     return <div>
-        <img src={ProjectImage}></img>
+        <img style={{maxWidth: "400px"}} src={ProjectImage}></img>
     </div>
 }
 

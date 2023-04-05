@@ -8,7 +8,7 @@ const ProjectNavbar = ({handleBtnClick, ImageArray}) => {
   return (
     <div className="navbar row">
 {projects.map((project) => (
-  <button onClick={() => handleBtnClick(ImageArray[project.id - 1])} className={project.navbarClassName}  key={project.id} ><i className={project.navbarIconClass}></i>  {project.title}  <i className={project.navbarIconClass}></i></button>
+  <button onClick={() => handleBtnClick(project, ImageArray[project.id - 1])} className={project.navbarClassName}  key={project.id} ><i className={project.navbarIconClass}></i>  {project.title}  <i className={project.navbarIconClass}></i></button>
 ))};  
     </div>
   );
