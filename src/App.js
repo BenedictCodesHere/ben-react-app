@@ -7,6 +7,7 @@ import Project from './components/Project';
 import Header from "./components/Header";
 import projects from './projects.json';
 import Home from './pages/Home';
+import Skills from './pages/Skills';
 import './App.css';
 
 function App() {
@@ -41,6 +42,7 @@ const ProjectsArray = projects.map((project) => (
                           <Route path="/ben-react-app" element={<Home />}/>
                           <Route path="/ben-react-app/contact" element={<Contact />} />
                           <Route path="/ben-react-app/projects" element={<ProjectGallery />} />
+                          <Route path="/ben-react-app/skills" element={<Skills />} />
                         </Routes>
                   </Router>
                 </div>
