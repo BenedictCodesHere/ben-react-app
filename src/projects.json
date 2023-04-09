@@ -1,6 +1,8 @@
 [
     {
       "id": 1,
+        "navbarClassName": "btn btn-block btn-project",
+        "navbarIconClass": "bi bi-award",
       "title": "French Tutoring Website",
       "repo":
         "https://github.com/BenedictCodesHere/french-tutoring-website-react", 
@@ -8,9 +10,11 @@
         "alt": "Image of deployed application for French tutoring website.",
         "deployed": "https://myfrenchtutor.netlify.app/",
         "description": "Developed as part of a 5-person team, this project was designed using React, Node, Bootstrap and custom CSS. I took the lead on developing the UnsplashComp component, which allows the user to interact with a set of named buttons, to call the Unsplash API with different search queries. I had to make use of the useEffect and useState react hooks in order to effectively manage the flow of data within this component. I also split the data into a separate JSON file, as part of separating concerns appropriately. I configured the Vocalvideo widget for use in React, which required significant amendments to the documented way to embed the code for simple HTML, and also integrated Google Analytics into the format for React."
-    },
+      },
     {
       "id": 2,
+        "navbarClassName": "btn btn-block btn-project",
+        "navbarIconClass": "bi bi-clipboard2-check-fill",
       "title": "Code Quiz",
       "repo":
         "https://github.com/BenedictCodesHere/Code-Quiz",
@@ -21,6 +25,8 @@
     },
     {
       "id": 3,
+        "navbarClassName": "btn btn-block btn-project",
+        "navbarIconClass": "bi bi-cloud-drizzle",
       "title":"Weather Dashboard",
       "repo":
         "https://github.com/BenedictCodesHere/Weather-Dashboard",
@@ -31,6 +37,8 @@
     },
     {
         "id": 4,
+          "navbarClassName": "btn btn-block btn-project",
+          "navbarIconClass": "bi bi-journal-bookmark-fill",
         "title": "Daily Planner",
         "repo":
           "https://github.com/BenedictCodesHere/Daily-Planner",
@@ -41,6 +49,8 @@
       },
       {
         "id": 5,
+        "navbarClassName": "btn btn-block btn-project",
+        "navbarIconClass": "bi bi-asterisk",
         "title": "Password Generator",
         "repo":
           "https://github.com/BenedictCodesHere/Password-Generator",
@@ -51,6 +61,8 @@
       },
       {
         "id": 6,
+        "navbarClassName": "btn btn-block btn-project",
+        "navbarIconClass": "bi bi-card-list",
         "title": "README Generator",
         "repo":
           "https://github.com/BenedictCodesHere/README-generator",
