@@ -45,8 +45,24 @@ return (<>
 
 <ProjectNavbar />
 <div className="container">
-    
-         
+    <h2 className="project-title text-center">{props.title}</h2>
+          <div className="card" style={{backgroundColor:"inherit"}}>
+            <div className="img-container d-flex justify-content-center" style={{maxHeight: "35vh", width: "inherit"}}>
+              <LazyLoadImage PlaceholderSrc={'../assets/images/placeholder.svg'} style={{maxHeight:"inherit", height:"inherit", width:"inherit", maxWidth: "100vw"}} alt={props.alt} src={ProjectImage}></LazyLoadImage>
+            </div>
+            <div className="card-body mx-4 p-6 mt-4 row text-center">
+              
+            
+          
+              <Link className="btn btn-dark" to={props.deployed}><i className="bi bi-rocket-takeoff"></i> </Link>
+             
+          
+           
+             <Link className="btn btn-dark" to={props.repo}><i className="bi bi-github" /></Link>
+            </div>
+            <div className="p-4 text-center" ><p>{props.description}</p></div>
+            
+            </div>
             
             <Link className="btn btn-primary arrow" to="/ben-react-app/projects"><i className="bi bi-arrow-left"></i></Link>
             
