@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ben-react-app/static/css/main.7d8d2bcb.css",
-    "main.js": "/ben-react-app/static/js/main.d67bc04c.js",
+    "main.css": "/ben-react-app/static/css/main.aa4de35a.css",
+    "main.js": "/ben-react-app/static/js/main.16082680.js",
     "static/js/787.650abb85.chunk.js": "/ben-react-app/static/js/787.650abb85.chunk.js",
     "static/media/README-generator.png": "/ben-react-app/static/media/README-generator.3857ab227c23757a5bc0.png",
     "static/media/weather-dashboard.png": "/ben-react-app/static/media/weather-dashboard.ef364c5e66781bdf8ea4.png",
@@ -12,13 +12,14 @@
     "static/media/daily-planner.png": "/ben-react-app/static/media/daily-planner.4abb3785f36e3d8be53b.png",
     "static/media/password-generator.png": "/ben-react-app/static/media/password-generator.ffeb900ebc8828fd1481.png",
     "static/media/code-quiz.png": "/ben-react-app/static/media/code-quiz.960666682702ca89474a.png",
+    "static/media/placeholder.svg": "/ben-react-app/static/media/placeholder.a907908ac98543606e904937afa3cde7.svg",
     "index.html": "/ben-react-app/index.html",
-    "main.7d8d2bcb.css.map": "/ben-react-app/static/css/main.7d8d2bcb.css.map",
-    "main.d67bc04c.js.map": "/ben-react-app/static/js/main.d67bc04c.js.map",
+    "main.aa4de35a.css.map": "/ben-react-app/static/css/main.aa4de35a.css.map",
+    "main.16082680.js.map": "/ben-react-app/static/js/main.16082680.js.map",
     "787.650abb85.chunk.js.map": "/ben-react-app/static/js/787.650abb85.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d8d2bcb.css",
-    "static/js/main.d67bc04c.js"
+    "static/css/main.aa4de35a.css",
+    "static/js/main.16082680.js"
   ]
 }
