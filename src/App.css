@@ -1,14 +1,5 @@
 body {
-  background-image: linear-gradient(to right, #8360c3, #2ebf91) !important;
- 
-}
-
-h1, h2, h3 {
-  color:rgb(148, 255, 121);
-}
-
-strong {
-  color:rgb(132, 248, 94);
+  background: radial-gradient(#c9c0c0, #d1ebeb)!important;
 }
 
 .btn {
@@ -21,7 +12,6 @@ p {
   font-weight: 400;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   overflow-wrap: break-word;
-  color:rgb(221, 205, 205);
 }
 
 .email, label, legend {
@@ -63,6 +53,5 @@ p {
         border-radius: 7px !important;
         border: none;
       }
-
 
     
